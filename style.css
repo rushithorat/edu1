@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Erp-container{
+    height: 60vh;
+    width: 100%;
+   background-image: url(sliderBackground.png);
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Erp-box{
+    height: 90%;
+    width: 85%;
+    
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 20px;
+  }
+  .Erp-head{
+    height: 17%;
+    width: 92%;
+    margin-left: 4%;
+   
+  }
+  .Erp-head h1{
+    color: #4f97ea;
+    padding-top: 3vh;
+  }
+  .input1{
+    height: 17%;
+    width: 92%;
+    margin-left: 4%;
+  }
+ .in{display: flex;
+ justify-content: space-between;
+ align-items: center;
+  }
+  .in input{
+    height:70% ;
+    width: 31%;
+    border-radius: 6px;
+    font-size: 1vw;
+    padding-left: 1vw;
+  
+    border: 1px solid rgb(194, 191, 191);
+    
+  }
+  .input2{
+    height: 17%;
+    width: 92%;
+    margin-left: 4%;
+   
+  }
+  .input3{
+    height: 17%;
+    width: 92%;
+    margin-left: 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .input3 .city{
+    height: 70%;
+    width: 31%;
+
+  }
+  .input3 .mess{
+    height: 70%;
+    width: 65%;
+  }
+  .input3 input{
+   
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 6px;
+    font-size: 1vw;
+    padding-left: 1vw;
+  }
+  .input4{
+    height: 23%;
+    width: 92%;
+    margin-left: 4%;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .captcha{
+    height: 90%;
+    width: 27%;
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .captcha input{
+    height: 2vw;
+    width: 2vw;
+    margin-left: 1vw;
+  }
+  .captcha h3{
+    margin-right: 4vw;
+  }
+  .submit{
+    height: 60%;
+    width: 15%;
+    border-radius: 30px;
+    
+    color: white;
+    background: linear-gradient(to right , white 50%, #4f97ea 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  font-size: 1.3vw;
+  }
+  .submit:hover{
+    background-position: left bottom;
+    color:#4f97ea ;
+  }
+  .re img{
+    height: 2vw;
+    width: 2vw;
+    margin-left: 1vw;
+  }
+  .re h4{
+    font-size: .7vw;
+    margin-right: .5vw;
+  }
+ 
